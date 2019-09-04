@@ -1,0 +1,16 @@
+[package]
+name = "wasi-common-lucet"
+version = "0.1.3"
+description = "wasi-common wrappers for Lucet"
+authors = ["Frank Denis <github@pureftpd.org>"]
+keywords = ["wasm", "lucet", "wasi", "webassembly", "wasi-common"]
+readme = "README.md"
+license = "ISC"
+homepage = "https://github.com/jedisct1/wasi-common-lucet"
+repository = "https://github.com/jedisct1/wasi-common-lucet"
+categories = ["wasm"]
+edition = "2018"
+
+[dependencies]
+lucet-runtime = "0.1.1"
+wasi-common = "0.2"
