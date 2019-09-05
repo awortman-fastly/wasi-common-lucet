@@ -1,3 +1,6 @@
+[![crates.io](https://meritbadge.herokuapp.com/wasi-common-lucet)](https://crates.io/crates/wasi-common-lucet)
+[![Released API docs](https://docs.rs/wasi-common-lucet/badge.svg)](https://docs.rs/wasi-common-lucet)
+
 # WASI-common wrappers for Lucet
 
 A crate to use the [reference WASI implementation](https://github.com/CraneStation/wasi-common/) in WebAssembly modules run with [Lucet](https://github.com/fastly/lucet).
