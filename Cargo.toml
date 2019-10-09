@@ -12,5 +12,5 @@ categories = ["wasm"]
 edition = "2018"
 
 [dependencies]
-lucet-runtime = "0.1.1"
+lucet-runtime = { git = "https://github.com/fastly/lucet", branch = "master" } # "0.1.1"
 wasi-common = "0.2"
