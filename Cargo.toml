@@ -12,5 +12,5 @@ categories = ["wasm"]
 edition = "2018"
 
 [dependencies]
-lucet-runtime = "0.2"
-wasi-common = "0"
+lucet-runtime-internals = "0.2.1"
+wasi-common = "0.2"
