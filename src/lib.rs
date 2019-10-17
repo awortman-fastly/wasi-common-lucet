@@ -1,14 +1,13 @@
 #![allow(clippy::too_many_arguments)]
 
-pub use lucet_runtime::{self, vmctx::lucet_vmctx};
+pub use lucet_runtime_internals::{lucet_hostcall_terminate, lucet_hostcalls, vmctx::lucet_vmctx};
 pub use wasi_common::*;
 
-use lucet_runtime::lucet_hostcall_terminate;
 use std::mem;
 use std::rc::Rc;
 use wasi_common::hostcalls::*;
 
-lucet_runtime::lucet_hostcalls! {
+lucet_hostcalls! {
 
 #[no_mangle]
 pub unsafe extern "C" fn __wasi_proc_exit(
