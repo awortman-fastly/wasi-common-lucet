@@ -1,6 +1,6 @@
 [package]
 name = "wasi-common-lucet"
-version = "0.1.5"
+version = "0.1.6"
 description = "wasi-common wrappers for Lucet"
 authors = ["Frank Denis <github@pureftpd.org>"]
 keywords = ["wasm", "lucet", "wasi", "webassembly", "wasi-common"]
