@@ -1,4 +1,5 @@
 #![allow(clippy::too_many_arguments)]
+#![allow(clippy::missing_safety_doc)]
 
 pub use lucet_runtime_internals::{lucet_hostcall_terminate, lucet_hostcalls, vmctx::lucet_vmctx};
 pub use wasi_common::*;
