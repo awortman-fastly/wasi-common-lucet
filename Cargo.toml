@@ -13,4 +13,4 @@ edition = "2018"
 
 [dependencies]
 lucet-runtime-internals = "0.4"
-wasi-common = "0.2"
+wasi-common = "0.5"
